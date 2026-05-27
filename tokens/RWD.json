@@ -1,0 +1,50 @@
+{
+  "Spacing": {
+    "Tiny-4":  { "$type": "number", "$value": 4,  "$extensions": { "com.figma.variableId": "VariableID:77:2056" } },
+    "XXS-8":   { "$type": "number", "$value": 8,  "$extensions": { "com.figma.variableId": "VariableID:77:2057" } },
+    "XS-12":   { "$type": "number", "$value": 12, "$extensions": { "com.figma.variableId": "VariableID:77:2058" } },
+    "S-16":    { "$type": "number", "$value": 16, "$extensions": { "com.figma.variableId": "VariableID:77:2059" } },
+    "M-20":    { "$type": "number", "$value": 20, "$extensions": { "com.figma.variableId": "VariableID:77:2060" } },
+    "L-24":    { "$type": "number", "$value": 24, "$extensions": { "com.figma.variableId": "VariableID:77:2061" } },
+    "XL-28":   { "$type": "number", "$value": 28, "$extensions": { "com.figma.variableId": "VariableID:77:2062" } },
+    "2XL-32":  { "$type": "number", "$value": 32, "$extensions": { "com.figma.variableId": "VariableID:77:2063" } },
+    "3XL-36":  { "$type": "number", "$value": 36, "$extensions": { "com.figma.variableId": "VariableID:77:2064" } },
+    "4XL-40":  { "$type": "number", "$value": 40, "$extensions": { "com.figma.variableId": "VariableID:77:2065" } },
+    "5XL-48":  { "$type": "number", "$value": 48, "$extensions": { "com.figma.variableId": "VariableID:77:2066" } },
+    "Section": {
+      "Spacing80":  { "$type": "number", "$value": 80,  "$extensions": { "com.figma.variableId": "VariableID:77:2068" } },
+      "Spacing100": { "$type": "number", "$value": 100, "$extensions": { "com.figma.variableId": "VariableID:77:2067" } }
+    }
+  },
+  "Device": {
+    "Breakpoint": { "$type": "number", "$value": 1440, "$extensions": { "com.figma.variableId": "VariableID:77:2069" } },
+    "Grid": {
+      "Margin":  { "$type": "number", "$value": 40, "$extensions": { "com.figma.variableId": "VariableID:77:2070" } },
+      "Columns": { "$type": "number", "$value": 12, "$extensions": { "com.figma.variableId": "VariableID:77:2071" } },
+      "Gutter":  { "$type": "number", "$value": 32, "$extensions": { "com.figma.variableId": "VariableID:77:2072" } }
+    }
+  },
+  "Radius": {
+    "xxs":     { "$type": "number", "$value": 4,    "$extensions": { "com.figma.variableId": "VariableID:77:2073" } },
+    "xs":      { "$type": "number", "$value": 8,    "$extensions": { "com.figma.variableId": "VariableID:77:2074" } },
+    "s":       { "$type": "number", "$value": 12,   "$extensions": { "com.figma.variableId": "VariableID:77:2075" } },
+    "m":       { "$type": "number", "$value": 16,   "$extensions": { "com.figma.variableId": "VariableID:77:2076" } },
+    "l":       { "$type": "number", "$value": 20,   "$extensions": { "com.figma.variableId": "VariableID:77:2077" } },
+    "xl":      { "$type": "number", "$value": 24,   "$extensions": { "com.figma.variableId": "VariableID:77:2078" } },
+    "rounded": { "$type": "number", "$value": 1000, "$extensions": { "com.figma.variableId": "VariableID:77:2079" } }
+  },
+  "Typography": {
+    "Size": {
+      "12": { "$type": "number", "$value": 12, "$extensions": { "com.figma.variableId": "VariableID:77:2080" } },
+      "14": { "$type": "number", "$value": 14, "$extensions": { "com.figma.variableId": "VariableID:77:2081" } },
+      "16": { "$type": "number", "$value": 16, "$extensions": { "com.figma.variableId": "VariableID:77:2082" } },
+      "18": { "$type": "number", "$value": 18, "$extensions": { "com.figma.variableId": "VariableID:77:2083" } },
+      "20": { "$type": "number", "$value": 20, "$extensions": { "com.figma.variableId": "VariableID:77:2084" } },
+      "24": { "$type": "number", "$value": 24, "$extensions": { "com.figma.variableId": "VariableID:77:2085" } },
+      "28": { "$type": "number", "$value": 28, "$extensions": { "com.figma.variableId": "VariableID:77:2086" } },
+      "32": { "$type": "number", "$value": 32, "$extensions": { "com.figma.variableId": "VariableID:77:2087" } },
+      "44": { "$type": "number", "$value": 44, "$extensions": { "com.figma.variableId": "VariableID:77:2088" } }
+    }
+  },
+  "$extensions": { "com.figma.modeName": "Desktop" }
+}

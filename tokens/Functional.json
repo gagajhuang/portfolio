@@ -1,0 +1,25 @@
+{
+  "Color": {
+    "Accent": {
+      "Red":    { "$type": "color", "$value": { "hex": "#E34C31" }, "$extensions": { "com.figma.variableId": "VariableID:77:1907" } },
+      "Orange": { "$type": "color", "$value": { "hex": "#FF7600" }, "$extensions": { "com.figma.variableId": "VariableID:77:1908" } }
+    },
+    "Normal": {
+      "White":     { "$type": "color", "$value": { "hex": "#FFFFFF" }, "$extensions": { "com.figma.variableId": "VariableID:77:1909" } },
+      "Primary":   { "$type": "color", "$value": { "hex": "#303133" }, "$extensions": { "com.figma.variableId": "VariableID:77:1910" } },
+      "Secondary": { "$type": "color", "$value": { "hex": "#505155" }, "$extensions": { "com.figma.variableId": "VariableID:77:1911" } },
+      "Tertiary":  { "$type": "color", "$value": { "hex": "#797A7D" }, "$extensions": { "com.figma.variableId": "VariableID:77:1912" } },
+      "Divider":   { "$type": "color", "$value": { "hex": "#CBCCCD" }, "$extensions": { "com.figma.variableId": "VariableID:77:1913" } },
+      "Bg":        { "$type": "color", "$value": { "hex": "#EEEEEF" }, "$extensions": { "com.figma.variableId": "VariableID:77:1914" } }
+    }
+  },
+  "Button": {
+    "Disabled":       { "$type": "color", "$value": { "hex": "#B2B3B4" }, "$extensions": { "com.figma.variableId": "VariableID:77:1915" } },
+    "DisabledBorder": { "$type": "color", "$value": { "hex": "#8F9092" }, "$extensions": { "com.figma.variableId": "VariableID:77:1916" } }
+  },
+  "Tabs": {
+    "ActiveBg":   { "$type": "color", "$value": { "hex": "#FF7600" }, "$extensions": { "com.figma.variableId": "VariableID:77:1917" } },
+    "AcriveLine": { "$type": "color", "$value": { "hex": "#FFD3AD" }, "$extensions": { "com.figma.variableId": "VariableID:77:1918" } }
+  },
+  "$extensions": { "com.figma.modeName": "Mode 1" }
+}

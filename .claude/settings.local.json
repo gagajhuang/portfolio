@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jq -r '.[0].text' /Users/gaga/.claude/projects/-Users-gaga-Desktop-Profile/cce6daa0-efe8-442b-81a8-a03e1d9ca524/tool-results/mcp-figma-get_design_context-1779427969536.txt)",
+      "Read(//tmp/**)",
+      "mcp__figma__get_screenshot",
+      "mcp__figma__get_metadata",
+      "mcp__figma__get_design_context",
+      "Bash(curl -s \"http://localhost:3845/assets/899b00bde77f17dda76ea2c7f5fc2ccf3a44af39.svg\" -o /Users/gaga/Desktop/Profile/assets/images/icon-behance.svg)",
+      "Bash(curl -s \"http://localhost:3845/assets/a0ac9832f93688e8282d3a097b177b0461fbf42c.svg\" -o /Users/gaga/Desktop/Profile/assets/images/icon-github.svg)",
+      "Bash(curl -s \"http://localhost:3845/assets/2808d666398fda115502ce9eeac1af0c5be7c340.svg\" -o /Users/gaga/Desktop/Profile/assets/images/icon-linkedin.svg)",
+      "Bash(curl -s \"http://localhost:3845/assets/f063dc1cba2ddd61c5a35ff2cd5a44df8209e6c2.svg\" -o /Users/gaga/Desktop/Profile/assets/images/icon-arrow-right.svg)",
+      "Bash(curl -s \"http://localhost:3845/assets/30cfba544d9f65fea0c3f09c07708676a8c2b569.png\" -o /Users/gaga/Desktop/Profile/assets/images/logo-figma.png)",
+      "mcp__figma__get_variable_defs",
+      "mcp__claude_ai_Figma__get_variable_defs",
+      "mcp__claude_ai_Figma__get_design_context",
+      "mcp__claude_ai_Figma__get_metadata",
+      "mcp__claude_ai_Figma__get_screenshot",
+      "Bash(awk '{print $1, $2, $NF}')",
+      "Bash(sort -t: -k2 -n)",
+      "Bash(grep -v '^--$')",
+      "Bash(python3 *)",
+      "WebFetch(domain:moonex.ibthemespro.com)",
+      "WebSearch"
+    ]
+  }
+}

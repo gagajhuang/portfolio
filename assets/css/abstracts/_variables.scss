@@ -1,0 +1,114 @@
+// RWD Breakpoints
+$rwdS: 768; // Mobile
+$rwdM: 1080;
+$rwdL: 1280;
+$rwdX: 1600;
+$rwdXL: 1920;
+
+// Devices
+$mobile: $rwdS + px;
+$tablet: $rwdM + px;
+
+// Duration
+$primaryDuration: 0.65s;
+$secondaryDuration: 0.35s;
+//以上變數 Claude code 不可更動及修改
+
+//以下為 figma token
+// Layout
+$grid-margin: 40px;
+$grid-gutter: 32px;
+$page-width:  1440px;
+
+// Colors — base palette
+$color-white: #ffffff;
+$color-black: #000000;
+
+// Gray
+$color-gray-50: #eeeeef;
+$color-gray-100: #cbcccd;
+$color-gray-200: #b2b3b4;
+$color-gray-300: #8f9092;
+$color-gray-400: #797a7d;
+$color-gray-500: #58595d;
+$color-gray-600: #505155;
+$color-gray-700: #3e3f42;
+$color-gray-800: #303133;
+$color-gray-900: #252527;
+
+// Primary blue
+$color-blue-50: #dde2ed;
+$color-blue-100: #c5cee0;
+$color-blue-200: #b2bfd9;
+$color-blue-300: #9299a7;
+$color-blue-400: #7d8595;
+$color-blue-500: #5d677b;
+$color-blue-600: #555e70;
+$color-blue-700: #424957;
+$color-blue-800: #333944;
+$color-blue-900: #272b34;
+
+$color-secondary-blue: #2c67ae;
+$color-accent-red:     #e34c31;
+$color-accent-orange:  #ff7600;
+
+// Colors — functional
+$color-primary:   $color-gray-800;
+$color-secondary: $color-gray-600;
+$color-tertiary:  $color-gray-400;
+$color-divider:   $color-gray-100;
+$color-bg:        $color-gray-50;
+
+$color-btn-disabled:        $color-gray-200;
+$color-btn-disabled-border: $color-gray-300;
+
+$color-tabs-active:      $color-accent-orange;
+$color-tabs-active-line: #ffd3ad;
+
+// Typography
+$font-weight300: 300;
+$font-weight400: 400;
+$font-weight500: 500;
+$font-weight600: 600;
+$font-weight700: 700;
+
+$font-size-xs:   12px;
+$font-size-base: 14px;
+$font-size-md:   16px;
+$font-size-lg:   18px;
+$font-size-xl:   20px;
+$font-size-2xl:  24px;
+$font-size-3xl:  28px;
+$font-size-4xl:  32px;
+$font-size-5xl:  44px;
+
+// Spacing
+$spacing-4: 4px;
+$spacing-8: 8px;
+$spacing-12: 12px;
+$spacing-16: 16px;
+$spacing-20: 20px;
+$spacing-24: 24px;
+$spacing-28: 28px;
+$spacing-32: 32px;
+$spacing-36: 36px;
+$spacing-40: 40px;
+$spacing-48: 48px;
+$spacing-section-80:  80px;
+$spacing-section-100: 100px;
+
+:root {
+  --spacing-section-100: #{$spacing-section-100};
+  @media (max-width: $mobile) {
+    --spacing-section-100: 50px;
+  }
+}
+
+// Radius
+$radius-pill: 1000px;
+$radius-xl:   24px;
+$radius-l:    20px;
+$radius-m:    16px;
+$radius-s:    12px;
+$radius-card: 8px;
+$radius-sm:   4px;

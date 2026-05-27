@@ -1,0 +1,68 @@
+@use 'variables' as *;
+
+// 大標
+@mixin section-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: $color-primary;
+}
+
+// H1–H4
+@mixin heading-1 {
+  font-size: $font-size-5xl;   // 44px
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+@mixin heading-2 {
+  font-size: $font-size-4xl;   // 32px
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+@mixin heading-3 {
+  font-size: $font-size-3xl;   // 28px
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+}
+
+@mixin heading-4 {
+  font-size: $font-size-2xl;   // 24px
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+// Text
+@mixin text-20 {
+  font-size: $font-size-xl;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+@mixin text-18 {
+  font-size: $font-size-lg;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+@mixin text-16 {
+  font-size: $font-size-md;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+@mixin text-14 {
+  font-size: $font-size-base;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+@mixin text-12 {
+  font-size: $font-size-xs;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+

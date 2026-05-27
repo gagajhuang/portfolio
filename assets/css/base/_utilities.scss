@@ -1,0 +1,65 @@
+@use "../abstracts/mixins" as *;
+@use "../abstracts/variables" as *;
+/*--------------- 顯示與隱藏 ---------------*/
+
+.visible {
+	&-desktop {
+		display: inline;
+		@include tablet {
+			display: none;
+		}
+		@include mobile {
+			display: none;
+		}
+	}
+	&-tablet {
+		display: none;
+		@include tablet {
+			display: inline;
+		}
+	}
+	&-mobile {
+		display: none;
+		@include mobile {
+			display: inline;
+		}
+	}
+}
+
+.hidden {
+	&-desktop {
+		display: none;
+		@include mobile {
+			display: inline;
+		}
+	}
+	&-tablet {
+		display: inline;
+		@include tablet {
+			display: none;
+		}
+	}
+	&-mobile {
+		display: inline;
+		@include mobile {
+			display: none;
+		}
+	}
+}
+
+.hide-block {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	opacity: 0;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+body {
+	background: $color-white;
+	color: #000;
+	overflow-x: hidden;
+}

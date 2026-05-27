@@ -1,0 +1,10 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /powerful-ad.com/gaga_Jhuang/profile/
+
+# 靜態資源直接服務，不重寫
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# 其他路徑全部導向 200.html（讓前端路由接管）
+RewriteRule ^ 200.html [QSA,L]

@@ -1,0 +1,24 @@
+{
+  "header": {
+    "home": "Home",
+    "recap": "Event Recap",
+    "event": {
+      "title": "2025 Event+",
+      "event1": "Frame Our 25th Moments Together",
+      "event2": "VIVOTEK Green Day",
+      "event3": "Global Search Challenge",
+      "event4": "Global Step Challenge"
+    },
+    "profile": "Profile",
+    "login": "Log In",
+    "logout": "Log Out"
+  },
+  "footer": {
+    "text": "※The Organizer reserves the right to change or modify events. Any modification will update on this website.",
+    "text2": "※Your participation in this event implies your consent to the use of your photograph(s) taken during the event for post-event publicity."
+  },
+  "index":{
+    "h1":"Demo Test Page"
+    
+  }
+}
