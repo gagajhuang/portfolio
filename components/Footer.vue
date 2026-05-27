@@ -9,7 +9,7 @@
         <div class="footer__content">
           <div class="footer__social">
             <a
-              href="https://www.behance.net/"
+              href="https://www.behance.net/gagaportfolio"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Behance"
@@ -17,7 +17,7 @@
               <img src="@/assets/images/icon-behance.svg" alt="Behance" />
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/gagajhuang/company_case"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Github"
@@ -25,7 +25,7 @@
               <img src="@/assets/images/icon-github.svg" alt="Github" />
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/gaga-jhuang"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -33,8 +33,11 @@
               <img src="@/assets/images/icon-linkedin.svg" alt="LinkedIn" />
             </a>
           </div>
-          <a href="mailto:gagajhuang@gmail.com" class="footer__email">
+          <!-- <a href="mailto:gagajhuang@gmail.com" class="footer__email">
             gagajhuang@gmail.com
+          </a> -->
+          <a href="mailto:qq40124@gmail.com" class="footer__email">
+            qq40124@gmail.com
           </a>
         </div>
         <p class="footer__copyright">© 2026 Gaga All Rights Reserved.</p>

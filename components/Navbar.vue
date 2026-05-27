@@ -13,7 +13,7 @@
 
       <div class="navbar__right">
         <a
-          href="/resume.pdf"
+          :href="resumeUrl"
           class="btn-resume"
           target="_blank"
           rel="noopener noreferrer"
@@ -53,6 +53,8 @@
 <script setup>
 const menuOpen = ref(false);
 const scrolled = ref(false);
+const config = useRuntimeConfig();
+const resumeUrl = computed(() => `${config.app.baseURL}resume.pdf`);
 
 const onScroll = () => {
   scrolled.value = window.scrollY > 0;

@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   ssr: true,
 
   app: {
-    baseURL: "/powerful-ad.com/gaga_Jhuang/profile/",
+    baseURL: "/portfolio/",
     head: {
       title: "Gaga's profile",
       htmlAttrs: {
